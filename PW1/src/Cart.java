@@ -1,12 +1,14 @@
 import java.util.ArrayList;
 import java.util.List;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
+@Getter
+@Setter
+@NoArgsConstructor
 public class Cart {
-    private List<Product> products;
-
-    public Cart() {
-        this.products = new ArrayList<>();
-    }
+    private List<Product> products = new ArrayList<>();
 
     public void addProduct(Product product) {
         products.add(product);
