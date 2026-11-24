@@ -1,4 +1,4 @@
-package order.storage.model;
+package com.example.order.storage.model;
 
 import lombok.Getter;
 

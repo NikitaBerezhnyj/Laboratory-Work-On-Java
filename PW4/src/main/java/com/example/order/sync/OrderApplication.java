@@ -1,11 +1,11 @@
-package order.sync;
+package com.example.order.sync;
 
-import order.processing.OrderProcessor;
-import order.processing.OrderProcessingException;
-import order.storage.model.Clothing;
-import order.storage.model.Electronics;
-import order.storage.model.Product;
-import order.storage.repository.OrderRepository;
+import com.example.order.processing.OrderProcessor;
+import com.example.order.processing.OrderProcessingException;
+import com.example.order.storage.model.Clothing;
+import com.example.order.storage.model.Electronics;
+import com.example.order.storage.model.Product;
+import com.example.order.storage.repository.OrderRepository;
 import com.github.javafaker.Faker;
 
 import java.util.List;

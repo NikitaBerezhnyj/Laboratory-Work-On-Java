@@ -1,6 +1,6 @@
-package order.storage.repository;
+package com.example.order.storage.repository;
 
-import order.storage.model.Product;
+import com.example.order.storage.model.Product;
 
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;

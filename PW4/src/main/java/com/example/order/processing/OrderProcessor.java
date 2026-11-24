@@ -1,6 +1,6 @@
-package order.processing;
+package com.example.order.processing;
 
-import order.storage.model.Product;
+import com.example.order.storage.model.Product;
 
 import java.util.function.Consumer;
 
